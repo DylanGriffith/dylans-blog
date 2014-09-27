@@ -1,0 +1,17 @@
+.navbar-wrapper
+  .container
+    .navbar.navbar-inverse.navbar-static-top{:role => "navigation"}
+      .container
+        .navbar-header
+          %button.navbar-toggle.collapsed{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{:href => "/"} Dylan Griffith
+        .navbar-collapse.collapse
+          %ul.nav.navbar-nav
+            %li
+              %a{:href => "/blog"} Blog
+            %li
+              %a{:href => "/cv"} CV

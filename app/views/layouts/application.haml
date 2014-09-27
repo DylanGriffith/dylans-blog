@@ -1,8 +1,16 @@
 %html
   %head
     %title Dylan's Blog
+    %meta{:content => "Dylan's Blog", :name => "description"}/
+    %meta{:content => "Dylan Griffith", :name => "author"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %link{:href => "/favicon.ico", :rel => "icon"}/
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
-    = yield
+    #navigation
+      = render :partial => 'navbar'
+    .component
+      .module
+        = yield
