@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   resources :posts, :only => [:index]
 
+  get '/my_page_today', :to => redirect('https://mypagetoday.dylangriffith.net')
+  get '/my_page_today/home', :to => redirect('https://mypagetoday.dylangriffith.net')
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
