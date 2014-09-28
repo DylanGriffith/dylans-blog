@@ -4,7 +4,7 @@ pid_file = "#{rails_root}/tmp/pids/unicorn.pid"
 # Notification e-mail configuration.
 # Check out the godrb website for more notification options.
 God::Contacts::Email.defaults do |d|
-  d.from_email = "dyl.griffith@gmail.com"
+  d.from_email = "blog@dylangriffith.net"
   d.from_name = "Blog God"
   d.delivery_method = :sendmail
 end
@@ -12,9 +12,9 @@ end
 # You can define several people to notify.
 # Each transition can be configured to send a notification
 # to one person (name) or an entire group (group).
-God.contact :email do |c|
+God.contact(:email) do |c|
   c.name = "Dylan"
-  c.group "developers"
+  c.group = "developers"
   c.to_email = "dyl.griffith@gmail.com"
 end
 
