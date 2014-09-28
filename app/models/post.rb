@@ -2,7 +2,7 @@ require 'redcarpet'
 
 class Post < ActiveRecord::Base
   def self.latest_post
-    order(:created_at).last
+    order(:authored_at).last
   end
 
   def rendered_body
