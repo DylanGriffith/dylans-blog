@@ -28,7 +28,7 @@ God.watch do |w|
   w.group = "dylans-blog"
 
   # Environment variables to set before starting the process.
-  w.env = { 'RAILS_ENV' => 'production' }
+  w.env = { 'RAILS_ENV' => 'production', 'SECRET_KEY_BASE' => ENV['SECRET_KEY_BASE'] }
 
   # Start, stop and restart commands for the process.
   # Here, we use unicorn to start the app and send signals to stop and restart.
