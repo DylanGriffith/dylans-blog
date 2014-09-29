@@ -4,13 +4,20 @@
     %meta{:content => "Dylan's Blog", :name => "description"}/
     %meta{:content => "Dylan Griffith", :name => "author"}/
     %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-    %link{:href => "/favicon.ico", :rel => "icon"}/
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
     #navigation
       = render :partial => 'navbar'
-    .component
-      .module
-        = yield
+    .container
+      .row
+        .component.col-md-4.sidebar
+          .module
+            .well
+              .g-person{:data => { :href => "//plus.google.com/u/0/101985695264361254688", :rel => "author" }}
+        .component.col-md-8
+          .module
+            = yield
+  %foot
+    %script{:type => "text/javascript", :src => "https://apis.google.com/js/platform.js", :async => true, :defer => true}
