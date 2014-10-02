@@ -9,4 +9,4 @@ The point is that our country isn't represented by these statistical outliers, i
 
 The great shame is that people seem to be more concerned with how they are represented by the achievements of people they have never even met than they are about their own achievements.
 
-<iframe allowfullscreen="" frameborder="0" height="270" src="http://www.youtube.com/embed/xN1WN0YMWZU?fs=1" width="480"></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/xN1WN0YMWZU" frameborder="0" allowfullscreen></iframe>

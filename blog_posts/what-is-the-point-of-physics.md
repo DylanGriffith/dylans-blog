@@ -23,4 +23,4 @@ A nice example I usually like to mention is the modern computer. The creation of
 
 I don’t expect any of you to now want to become a physicist, but I hope that the next time you meet a physicist you will have enough understanding to not accidentally imply that they are wasting their time. Even if you don’t understand, you should at least respect the right of someone to devote some of their time to unlocking the mysteries of this beautiful universe we have found ourselves in.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/buqtdpuZxvk" width="420"></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/buqtdpuZxvk" frameborder="0" allowfullscreen></iframe>
