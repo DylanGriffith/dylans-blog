@@ -1,6 +1,6 @@
 .well
   .blog-post
     .blog-post-title
-      %h1= post.title
+      %h1= link_to post.title, "/posts/#{post.permalink}"
     .blog-post.body
       = post.rendered_body

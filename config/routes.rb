@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
-  resources :posts, :only => [:index]
+  resources :posts, :only => [:index, :show]
 
   get '/my_page_today', :to => redirect('https://mypagetoday.dylangriffith.net')
   get '/my_page_today/home', :to => redirect('https://mypagetoday.dylangriffith.net')
