@@ -18,7 +18,7 @@ class PostUpdater
       index += 1
     end
     post = Post.find_or_create_by(:permalink => permalink)
-    time ||= (Post.authored_at || Time.now)
+    time ||= (post.authored_at || Time.now)
     post.update_attributes!(:body => body, :authored_at => time, :title => title)
     puts "successfully created or updated post with id=#{post.id}"
   end
