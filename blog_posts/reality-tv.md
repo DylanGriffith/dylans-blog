@@ -5,7 +5,7 @@ I should first point out that I watch a lot of TV. I love TV. I watch good TV an
 My reasoning for disliking reality TV is not because it is bad, but rather because it is dishonest. Almost all of the popular reality TV today is heavily scripted and planned. I hope that if audiences were aware of this we would ask these TV producers to stop insulting us by hyping their badly acted drama under the guise of reality.
 
 ## Cooking Shows
-My Kitchen Rules is a cooking show in which every single episode involves the contestants managing to serve up their dishes with around 1 second to spare on the clock, after having hours to cook. The entire time they are plagued by drama between the partners and to make it easier for us to grasp it is narrated in the first person present tense, by what is almost certainly a scripted, well paid, amateur chef turned actor.
+My Kitchen Rules is a cooking show in which every single episode involves the contestants managing to serve up their dishes with around 1 second to spare on the clock, after having hours to cook. The entire time they are plagued by drama between the partners and, to make it easier for us to grasp, it is narrated in the first person present tense, by what is almost certainly a scripted, well paid, amateur chef turned actor.
 
 We see the contestants rushing around stressed with camera angles constantly reminding us "this is pretty dramatic", with shots of judges and friends and family cheering and announcing timelines cut into the action sequence with no real evidence (but every reason to think otherwise) that they were even filmed at the same time.
 
