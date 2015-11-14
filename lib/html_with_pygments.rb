@@ -1,4 +1,5 @@
-# create a custom renderer that allows highlighting of code blocks
+require 'pygments'
+
 class HtmlWithPygments < Redcarpet::Render::HTML
   def block_code(code, language)
     Pygments.highlight(code, lexer: language)

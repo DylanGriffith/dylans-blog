@@ -1,5 +1,4 @@
 require 'redcarpet'
-require 'pygments'
 
 class Post < ActiveRecord::Base
   def self.latest_post
