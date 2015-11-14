@@ -6,8 +6,8 @@ class Post < ActiveRecord::Base
   end
 
   def rendered_body
-    renderer = Redcarpet::Render::HTML.new
-    markdown = Redcarpet::Markdown.new(renderer)
+    renderer = Redcarpet::Render::HTML.new(prettify: true)
+    markdown = Redcarpet::Markdown.new(renderer, fenced_code_blocks: true)
     markdown.render(self.body.html_safe).html_safe
   end
 end

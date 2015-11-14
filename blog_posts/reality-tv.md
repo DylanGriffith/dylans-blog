@@ -1,4 +1,5 @@
 Stop Watching Reality TV!
+2014-10-25
 
 I should first point out that I watch a lot of TV. I love TV. I watch good TV and bad TV. Funny TV, sad TV, lame TV. I'm not a TV snob. I don't think we all need to be watching intellectual TV that is exceptionally written and produced with only the most highbrow jokes. However, I do think people need to stop watching reality TV!
 
