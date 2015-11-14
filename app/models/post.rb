@@ -1,4 +1,5 @@
 require 'redcarpet'
+require 'pygments'
 
 class Post < ActiveRecord::Base
   def self.latest_post
@@ -6,8 +7,8 @@ class Post < ActiveRecord::Base
   end
 
   def rendered_body
-    renderer = Redcarpet::Render::HTML.new(prettify: true)
+    renderer = HtmlWithPygments.new(prettify: true)
     markdown = Redcarpet::Markdown.new(renderer, fenced_code_blocks: true)
-    markdown.render(self.body.html_safe).html_safe
+    markdown.render(self.body.html_safe)
   end
 end
