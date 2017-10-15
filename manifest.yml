@@ -1,0 +1,11 @@
+---
+applications:
+- name: dylansblog
+  routes:
+  - route: www.dylangriffith.net
+  - route: dylansblog.cfapps.io
+  memory: 256M
+  instances: 2
+  command: bundle exec rake db:migrate && bundle exec rake admin:update_posts && bundle exec rails s -p $PORT
+  services:
+    - blog-db
