@@ -5,9 +5,9 @@ In this post I will demonstrate how to deploy a [Spring Boot](https://projects.s
 
 All the code for this project can be found in [the Gitlab repo](https://gitlab.com/DylanGriffith/spring-gitlab-cf-deploy-demo).
 
-## Install And CF CLI And Login
+## Install CF CLI And Login
 
-The latest installation instructions can be found at https://github.com/cloudfoundry/cli
+The latest installation instructions for your system can be found at https://github.com/cloudfoundry/cli
 
 You can login to CF like so:
 
@@ -31,7 +31,7 @@ After you unzip the application and `cd` into the directory you can start the ap
 ./gradlew bootRun
 ```
 
-Now we want to add a route to our application so we create a new class
+Now we want to add a route to our application so we create a new controller:
 
 ```java
 // src/main/java/net/dylangriffith/gitlabcfdeploy/helloworld/HelloController.java
@@ -49,7 +49,7 @@ public class HelloController {
 }
 ```
 
-Now after restarting the application you should be able to visit http://localhost:8081/ and see the message "Hello, world!".
+Now after restarting the application you should be able to visit http://localhost:8080/ and see the message "Hello, world!".
 
 ## Configure Your Cloud Foundry Deployment
 
@@ -61,7 +61,7 @@ jar{
 }
 ```
 
-First compile the Jar for your spring boot application like so:
+First compile the JAR for your spring boot application like so:
 
 ```bash
 ./gradlew assemble
