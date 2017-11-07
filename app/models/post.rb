@@ -7,7 +7,7 @@ class Post < ActiveRecord::Base
 
   def rendered_body
     renderer = HtmlWithPygments.new(prettify: true)
-    markdown = Redcarpet::Markdown.new(renderer, fenced_code_blocks: true)
+    markdown = Redcarpet::Markdown.new(renderer, fenced_code_blocks: true, autolink: true)
     markdown.render(self.body.html_safe)
   end
 end
